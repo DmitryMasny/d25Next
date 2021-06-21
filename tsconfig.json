@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@modules/*": [
+        "components/modules/*"
+      ],
+      "@menu/*": [
+        "components/modules/menu/*"
+      ],
+      "@elements/*": [
+        "components/elements/*"
+      ],
+      "@modals/*": [
+        "components/modals/*"
+      ],
+      "@texts/*": [
+        "constants/texts/*"
+      ],
+      "@actions/*": [
+        "redux/actions/*"
+      ],
+      "@actionTypes/*": [
+        "redux/actionTypes/*"
+      ],
+      "@reducers/*": [
+        "redux/reducers/*"
+      ],
+      "@selectors/*": [
+        "redux/selectors/*"
+      ],
+      "@interfaces/*": [
+        "constants/interfaces/*"
+      ]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "u4u"
+  ]
+}
